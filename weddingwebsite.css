@@ -1,0 +1,409 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("https://media.istockphoto.com/photos/outdoor-garden-wedding-ceremony-flower-arch-picture-id1222589192?b=1&k=20&m=1222589192&s=170667a&w=0&h=knZ3o_tLf-4Vj8-hbG5jFtqJdgLDywC5xKrjqnKBGlM=");
+  height: 100%;
+  background-position: center;
+}
+
+.caption {
+  position: absolute;
+  left: 1.5%;
+  top: 72%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: rgb(253, 207, 150);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 20px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(252, 211, 160);
+  font-family: Arial;
+}
+a:hover {
+  background-color: bisque;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.navbar p {
+  float: left;
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.dropbtn {
+  position: relative;
+  top: 18px;
+  background-color: rgb(252, 211, 160);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:grey ; }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:rgb(214, 165, 101);}
+
+.left{
+  margin-left: 100px;
+}
+
+.groombride{
+  color: rgb(214, 165, 101);
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 5%;
+  font-size: 300%;
+  margin: 6%;
+  margin-bottom: 0%;
+}
+.underline{
+  position: relative;
+  width: 300px;
+  height: 1px;
+left: 493px;
+bottom: 30px;
+filter: grayscale(100%);
+opacity: 40%;
+}
+.body {
+  margin: 7%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  
+}
+.jamesp {
+  padding-left: 20px;
+  margin-top: 0%;
+  position: relative;
+bottom: 20px;
+}
+
+.column1 {
+  margin-left: 160px;
+  color: burlywood;
+  font-family: Bradley Hand, cursive;
+  font-size: 40px;
+  margin-bottom: 0%;
+  width: 90s;
+}
+div.jamesbackground {
+  background-color: bisque;
+  padding: 1%;
+}
+
+.column2 {
+  padding-left: 70px;
+  font-family: Bradley Hand, cursive;
+  font-size: 40px;
+  color: burlywood;
+  margin-bottom: 0%;
+  margin-left: 50px;
+
+}
+
+.james {
+  width: 115%;
+  height: 100%;
+  background-position: right;
+  background-size: cover;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+.sarahp {
+  padding-left: 10px;
+  position: relative;
+  bottom: 20px;
+  margin-top: 0%;
+}
+
+div.sarahbackground {
+  background-color: bisque;
+  padding: 5%;
+}
+.sarah {
+  width: 100%;
+  height: 100%;
+}
+.icon1 {
+  width: 4%;
+  height: 4%;
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 0.5%;
+  margin-right: 1%;
+}
+.weddingicon1{
+  width: 8%;
+  height: 10%;
+  position: relative;
+  left: 260px;
+bottom: 16px;
+}
+.weddingicon2{
+  width: 9%;
+  height: 10%;
+  position: relative;
+  left: 210px;
+bottom: 14px;
+}
+
+
+header.bgimg-7 {
+  float: left;
+  background-image: url(desertcouple4ccopy.jpeg);
+  filter: sepia(30%);
+  height: 40%;
+  width: 93%;
+  background-position:top;
+  margin: 4%;
+  margin-top: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.caption2 {
+  position: relative;
+  left: 30%;
+  top: 12%;
+  width: 80%;
+  text-align: center;
+  color: #000;
+}
+.caption2 span.border2 {
+  background-color: burlywood;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 20px;
+  visibility: hidden;
+}
+.RSVPheading{
+  color: rgb(214, 165, 101);
+  font-family: fantasy;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+main{
+  background-image: url(brownbackgroungimage.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 246, 233);
+  margin: 3%;
+  margin-top: 0%;
+  margin-left: 4%;
+  padding-bottom: 40px;
+}
+.weddingicon3{
+  width: 9%;
+  height: 10%;
+  position: relative;
+  left: 70px;
+bottom: 14px;
+}
+h4.RSVP{
+  color: #000;
+  margin-left: 7% ;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+form{
+  margin-top: 3%;
+  color: #000;
+  margin-left: 9%;
+}
+#contact{
+  
+  width: 100px;
+}
+#address{
+  height: 50px;
+  width: 300px;
+}
+.underline2{
+  position: relative;
+  width: 470px;
+  height: 2px;
+left: 359px;
+bottom: 120px;
+filter: grayscale(100%);
+opacity: 40%;
+}
+#addresstext{
+  position: relative;
+  bottom: 30px;
+  left: 80px;
+  margin: 0%;
+}
+.address1{
+  float: left;
+  }
+  .address2{
+    float: left;
+    margin-left: 25px;
+    }
+    .address3{
+      float: left;
+      }
+      .address4{
+    float: left;
+    margin-left: 25px;
+        }
+
+#email{
+  width: 300px;
+  height: 30px;
+}
+h4{
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+#wishes{
+  width: 40%;
+  height: 80px;
+}
+
+.button {
+  position: relative;
+  background-color: burlywood;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 4%;
+  font-size: medium;
+  border: #000 solid 0.9px;
+}
+
+.button:after {
+  content: "";
+  background:blanchedalmond;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.row {
+  display:flex;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
